@@ -10,7 +10,7 @@
 		
     }	
         .hero-border-imagen {
-            border-top-width: 25px;
+            border-top-width: 250px;
         }
 }
 
@@ -18,7 +18,7 @@
     /* ---- HERO ---- */
 	.hero {
         height: 220px;
-		background-image: url("https://github.com/ELIAS2022D/portfolio.gith/blob/main/images/2-4.jpg?raw=true");
+		background-image: url("../images/hero.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -40,22 +40,18 @@
 		grid-template-columns: 1fr;
 	}
     
-    .proyecto-imagen-container {
-        padding: 0 20%;
-    }
-    .informacion-fecha, .informacion-link {
-        margin: .5em 0;
-		font-size: 0.5em;
-		font-weight: 500;
-    }
+        .proyecto-imagen-container {
+            padding: 0 20%;
+        }
+
     /* ---- EXPERIENCIA ---- */
 	.experiencias-galeria {
 		grid-template-columns: 1fr;
     }
     
-    .galeria-experiencia:nth-of-type(1n+3) {
-        display: none;
-    }
+        .galeria-experiencia:nth-of-type(1n+3) {
+            display: none;
+        }
 }
 
 @media (max-width: 550px) {

@@ -14,7 +14,7 @@ img{
 		margin: 0 var(--espaciado-muy-alto) var(--espaciado-normal);
 		box-shadow: var(--box-shadow);
 		border-radius: var(--border-radius);
-		background-color: rgb(199, 188, 152);
+
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		border-radius: 10px;
@@ -61,6 +61,7 @@ img{
 
 		.proyecto-imagen-container {
 			margin: var(--espaciado-leve) 0;
+
 			display: flex;
 			align-items: center;
 			border-radius: 10px;
