@@ -6,6 +6,7 @@
 	background-color: var(--color-white-fondo);
 	position: relative;
 	z-index: 300;
+	
 }
 
 	.experiencias-galeria {
@@ -14,6 +15,7 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: var(--espaciado-normal);
+		font-family: 'Syne Mono', monospace;
 	}
 
 		.galeria-experiencia {
@@ -21,6 +23,7 @@
 			border-radius: var(--border-radius);
 			box-shadow: var(--box-shadow);
 			overflow: hidden;
+
 		}
 
 	.experiencia-multimedia {
@@ -45,6 +48,7 @@
 					font-size: 1.6em;
 					text-align: center;
 					opacity: 0.8;
+					font-family: 'Syne Mono', monospace;
 			}
 
 			.contenido-descripcion {
