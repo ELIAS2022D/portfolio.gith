@@ -14,7 +14,7 @@ img{
 		margin: 0 var(--espaciado-muy-alto) var(--espaciado-normal);
 		box-shadow: var(--box-shadow);
 		border-radius: var(--border-radius);
-		background-color: rgb(119, 170, 204);
+		background-color: rgb(93, 169, 255);
 		display: flex;
 		justify-content: center;
 		border-radius: 10px;
