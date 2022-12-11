@@ -41,14 +41,16 @@
 		bottom: var(--espaciado-alto);
 		display: grid;
 		justify-items: center;
+		font-family: 'Passion One', cursive;
 		}
 			.contenido-titulo {
 					margin: 0;
 					margin-bottom: 1em;
-					font-size: 1.6em;
+					font-size: 3.0em;
 					text-align: center;
 					opacity: 0.8;
 					font-family: 'Syne Mono', monospace;
+					font-family: 'Bebas Neue', cursive;
 			}
 
 			.contenido-descripcion {
